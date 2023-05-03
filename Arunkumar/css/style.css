@@ -1,0 +1,755 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* ---------------- Scrolbar styles ----------------- */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #ebeca3;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #c7a925;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #aa5b5b;
+}
+
+body {
+    margin: auto;
+    overflow-x: hidden;
+    /* background-image: url(../img/bi.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.li-main {
+    background-color: #fff;
+    font-family: sans-serif;
+    display: inline;
+}
+
+
+/* ----------------------------------- header style ----------------------------- */
+
+.sec-head {
+    /* padding: 10px 0 0; */
+    background-color: #ebeca3;
+    /* background-image: url(../img/gar.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* color: #fff; */
+    font-size: 16px;
+    /* height: 85px; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* background: #fff; */
+}
+
+.li-head {
+    /* height: 55px; */
+    background: #245252;
+    margin: 10px 0 0;
+}
+
+.sec-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 25px 0;
+}
+
+.sec-left {}
+
+.sec-right {
+    float: right;
+    width: 50%;
+}
+
+.sec-right div {
+    text-align: right;
+}
+
+.sec-right div a i {
+    font-weight: 600;
+    color: #034392;
+    font-size: 20px;
+}
+
+.sec-right div a {
+    margin: 0px 2% 0 2%;
+    /* background: #ece2e2;
+    padding: 4px 9px;
+    border-radius: 50%; */
+}
+
+.sec-cont {
+    color: #034392;
+    font-size: 22px;
+    margin: 7px 0%;
+}
+
+.sec-cont input {
+    font-size: 12px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #515395;
+}
+
+
+/* ------------- Search field styles ------------- */
+
+#search {
+    position: relative;
+    font-size: 18px;
+    /* padding-top: 40px;
+    margin: -20px auto 0; */
+}
+
+#search label {
+    position: absolute;
+    left: 17px;
+    top: 6px;
+}
+
+.fa-search {
+    color: #b3b3b3;
+}
+
+#search #search-input,
+#search .hint {
+    padding-left: 43px;
+    padding-right: 43px;
+    border-radius: 23px;
+    padding-bottom: 8px;
+    box-shadow: inset 0px 0px 10px -3px #1e1d76;
+}
+
+.input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+#search #search-clear {
+    text-decoration: none;
+    position: absolute;
+    right: 18px;
+    top: 11px;
+    color: #b3b3b3;
+}
+
+.sec-cont span {
+    font-weight: 600;
+}
+
+.sec-cont span a {
+    text-decoration: none;
+    color: #034392;
+}
+
+.li-logo {
+    float: left;
+    display: inline;
+    width: 50%;
+}
+
+.li-logo h3 {
+    cursor: pointer;
+    font-size: 26px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 50%;
+    padding: 20px 20px 25px;
+    background: #2a45a7;
+    width: 45%;
+    text-align: center;
+    margin-top: 2%;
+    box-shadow: inset 0 0px 2px 5px #ffd4d4;
+    border: 2px solid #4025d4;
+}
+
+marquee {
+    height: auto;
+    /* margin: auto 0; */
+    background: #d1d9b7;
+    font-weight: 700;
+    width: 100%;
+    padding: 1%;
+}
+
+marquee img {
+    margin: 0 20px;
+    height: 250px;
+    width: 50%;
+}
+
+.cat-sec {
+    padding: 20px;
+}
+
+.cat-list img {
+    width: 100%;
+}
+
+.cat-item div section {
+    margin-left: 30px;
+}
+
+.cat-item div {
+    position: relative;
+}
+
+
+/* 
+hr {
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    background: #f19446;
+    width: 90%;
+    margin: 0 10px;
+} */
+
+.cat-item div img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    /* border: 1px solid #c1c1c1; */
+    padding: 20px;
+    border-radius: 5%;
+    transition: transform .5s ease;
+}
+
+.cat-item div img:hover {
+    /* box-shadow: 0px 0px 10px -3px #1e1d76; */
+    transform: scale(1.3);
+}
+
+dd {
+    padding-left: 25px;
+}
+
+.li-logo img {
+    width: 125px;
+    border-radius: 50%;
+}
+
+.li-nav {
+    margin: auto;
+}
+
+.li-nav li:first-child {
+    border-left: 2px solid #fff;
+}
+
+.li-nav li {
+    padding: 6px 20px;
+    border-right: 2px solid #fff;
+    /* box-shadow: inset 0px 0px 8px -2px #000000; */
+    /* margin: 0 20px; */
+    width: 140px;
+    text-align: center;
+    /* border-radius: 6px; */
+}
+
+.li-nav li a {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.li-nav li a:hover {
+    text-decoration: unset;
+}
+
+.nav-tabs {
+    border-bottom: unset !important;
+}
+
+.tab-pane {
+    /* background: url(../img/bg.jpeg) no-repeat center fixed; */
+    /* background-repeat: round; */
+    background-size: cover;
+}
+
+
+/* -----------sidenav style---------------- */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+.recat {
+    padding-left: 20px;
+    border-right: 2px solid;
+}
+
+.recat h6 {
+    color: navy;
+    font-size: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    background: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+    margin: 10px 0px 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer p span i {
+    margin-right: 10px;
+}
+
+footer p a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+/* -------------------------------- about section --------------------------- */
+
+.il-about {
+    /* background: #98b6d0; */
+    /* height: 55px; */
+    color: #000;
+    /* padding: 6px 5px; */
+    letter-spacing: 0.9px;
+}
+
+.il-about h2 {
+    font-weight: 800;
+    text-align: center;
+    background: #98b6d0;
+    margin-bottom: 0;
+    padding: 6px;
+}
+
+.abt-tlt {
+    padding: 25px;
+    padding-top: 9%;
+    text-align: center;
+    background: #9d76fc;
+}
+
+.abt-tlt h6 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.abt-bottom {
+    padding: 3%;
+    background-color: darkblue;
+}
+
+.il-addr h4 {
+    border-bottom: 1px solid #c1c1c1;
+    color: #c1c1c1;
+    border-top: 1px solid #c1c1c1;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.addr {
+    color: #f3f3f3;
+}
+
+.addr p {
+    padding: 10px 8px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    font-size: 18px;
+    margin-bottom: 0;
+    /* border-bottom: 1px solid #9b9a9a; */
+}
+
+.abt-mid {
+    padding: 20px 15%;
+}
+
+.abt-info {
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f190e9c1;
+}
+
+.abt-cont {
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: inset 0px 0px 20px -2px #dc2593
+}
+
+.kil-edu {
+    list-style-type: disclosure-closed;
+}
+
+
+/* Modal style */
+
+.user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #f39c12;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: #60a3bc;
+    padding: 10px;
+    text-align: center;
+}
+
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.form_container {
+    margin-top: 100px;
+}
+
+.login_btn {
+    width: 100%;
+    background: #c0392b !important;
+    color: white !important;
+}
+
+.login_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.login_container {
+    padding: 0 2rem;
+}
+
+.input-group-text {
+    background: #c0392b !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #c0392b !important;
+}
+
+
+/*  Register */
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+/* Set a style for the submit button */
+
+.registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+
+/* Add a blue text color to links */
+
+
+/* a {
+    color: dodgerblue;
+  } */
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+
+/* ---------------------- Mens Sec style -------------- */
+
+.mensec {
+    padding: 30px;
+}
+
+.brandsec {
+    /* margin-left: 20px; */
+    display: grid;
+}
+
+.brandsec label {
+    font-weight: 700;
+}
+
+.brandsec a img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5%;
+    padding: 0 15px;
+}
+
+.mainbrand {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+#oto,
+#binfo {
+    margin: 25px;
+    position: relative;
+}
+
+.back {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 14px;
+    padding: 10px 20px 10px 30px;
+    background: #5d5c5c;
+    border-top-left-radius: 70%;
+    border-bottom-left-radius: 70%;
+    color: #fff;
+    cursor: pointer;
+}
+
+#oto h4,
+#binfo h4 {}
+
+.brandinfo {
+    border-radius: 20%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.brandinfo:hover {
+    box-shadow: inset 0px 0px 10px -3px #1e1d76;
+    background: #f2f2d1;
+    transition: transform .5s ease;
+}
+
+.brandinfo a img {
+    height: 220px;
+    margin-left: 9%;
+    margin-right: 30px;
+}
+
+.brandinfo p {
+    font-size: 12px;
+}
+
+.otoinfo {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.otobinfo {
+    margin: auto !important;
+    width: 80%;
+}
+
+.prdtl table {
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+}
+
+.prdtl table tr th,
+.prdtl table tr td {
+    padding: 10px;
+}
+
+
+/* ------------------ mobile view ------------------------- */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* ------------------ mobile view -------------------- */
+
+@media screen and (max-width: 767px) and (min-width: 350px) {
+    .li-head {
+        position: relative;
+    }
+    .li-right-head {
+        top: 0;
+        position: absolute;
+        right: 15px;
+        width: 93%;
+        background: transparent;
+    }
+    .li-togg {
+        font-size: 40px !important;
+        color: #034392;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 8px;
+        right: 0;
+    }
+}

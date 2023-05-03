@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Selvam</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="il-main">
+        <section class="sec-head">
+            <div class="sec-row">
+                <div class="li-logo">
+                    <h3>Geo Trade</h3>
+                    <!-- <img src="img/bg1.png" alt="logo"> -->
+                </div>
+                <div class="sec-right">
+                    <section id="search">
+                        <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search items</span></label>
+                        <input id="search-input" class="form-control input-lg" placeholder="Search for products, brands and more" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
+                        <a id="search-clear" href="#" class="fa fa-times-circle hide" aria-hidden="true"><span class="sr-only">Clear search</span></a>
+                    </section>
+                    <!-- <div class="sec-cont">
+                        <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search icons</span></label>
+                        <input type="search" name="" id="">
+                    </div> -->
+                </div>
+                <div class="sec-right">
+                    <div>
+                        <a href="https://www.facebook.com/" title="Facebook" target="_blank"><i class="fa fa-facebook"
+                                aria-hidden="true"></i></a>
+                        <a href="https://www.gmail.com/" title="Gmail" target="_blank"><i class="fa fa-envelope"
+                                aria-hidden="true"></i></a>
+                        <a href="https://www.twitter.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"
+                                aria-hidden="true"></i></a>
+                        <a href="https://www.google.com/" title="chrome" target="_blank"><i class="fa fa-chrome"
+                                    aria-hidden="true"></i></a>
+                        <a href="https://web.whatsapp.com/" title="whatsapp" target="_blank"><i class="fa fa-whatsapp"
+                                        aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/" title="youtube" target="_blank"><i class="fa fa-youtube"
+                                            aria-hidden="true"></i></a>
+
+                        <a href="https://www.instagram.com/" title="Instagram" target="_blank"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a>
+                        <a data-toggle="modal" data-target="#myModal" style="cursor: pointer; color: #000; font-weight: 700;">
+                             Login 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <section class="li-head">
+
+
+                <div class="li-right-head">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#">HOME</a>
+                        <a href="#">MENS</a>
+                        <a href="#">WOMENS</a>
+                        <a href="#">KIDS</a>
+                        <a href="#">CONTACT</a>
+                    </div>
+                    <nav class="navbar navbar-expand-md navbar-dark">
+                        <button class="navbar-toggler collapsed" type="button" onclick="openNav()">
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                            <i class="fa fa-bars li-togg" aria-hidden="true"></i>
+                        </button>
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav nav-tabs li-nav">
+                                <li class="active">
+                                    <a data-toggle="tab" href="#home">HOME</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#mens">MENS</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#womens">WOMENS</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="tab" href="#kids">KIDS</a>
+                                </li>
+
+                                <li>
+                                    <a data-toggle="tab" href="#offer">OFFERS</a>
+                                </li>
+                                <!-- <li>
+                                    <a data-toggle="tab" href="#fee">FEES</a>
+                                </li> -->
+                                <li>
+                                    <a data-toggle="tab" href="#contact">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </section>
+
+
+        <section class="il-body">
+
+            <!-- Home section -->
+            <div class="tab-content">
+                <section id="home" class=" tab-pane active">
+                    <marquee width="80%" behavior="alternate" direction="right" scrollamount="20">
+                        <img src="img/off1.jpg" alt="">
+                        <img src="img/off2.jpg" alt="">
+                        <img src="img/off33.jpg" alt="">
+                        <img src="img/off4.png" alt="">
+                    </marquee>
+                    <section class="cat-sec">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 cat-list">
+                                <h5>CATEGORYS</h5>
+                                <div class="recat">
+                                    <h6>Related Categorys</h6>
+                                    <div class="relist">
+                                        <dl>
+                                            <dt>Readymade Garments</dt>
+                                            <dd>Kids</dd>
+                                            <dd>Mens</dd>
+                                            <dd>Ladies</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>Materials</dt>
+                                            <dd>Mens</dd>
+                                            <dd>Ladies</dd>
+                                        </dl>
+                                        <dl>
+                                            <dt>Related Brands</dt>
+                                            <dd>Islamic Clothing</dd>
+                                            <dd>Casual Wear</dd>
+                                            <dd>Trousers</dd>
+                                            <dd>Vest</dd>
+                                            <dd>T-Shirts</dd>
+                                            <dd>Casual Apparel</dd>
+                                            <dd>Nightwear</dd>
+                                            <dd>Knitwear</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 cat-item">
+
+                                <div>
+                                    <h5>ITEMS</h5>
+                                    <section>
+                                        <img src="img/c02.jpg" alt="">
+                                        <img src="img/c3.jpg" alt="">
+                                        <img src="img/c1.jpg" alt="">
+                                        <img src="img/c4.jpg" alt="">
+                                    </section>
+                                </div>
+                                <div>
+                                    <h5>KIDS</h5>
+                                    <section>
+                                        <img src="img/k1.jpg" alt="">
+                                        <img src="img/k4.jpg" alt="">
+                                        <img src="img/k2.jpg" alt="">
+                                        <img src="img/k3.jpg" alt="">
+                                    </section>
+                                </div>
+                                <div>
+                                    <h5>MENS</h5>
+                                    <section>
+                                        <img src="img/m1.jpg" alt="">
+                                        <img src="img/m2.jpg" alt="">
+                                        <img src="img/m3.jpg" alt="">
+                                        <img src="img/m4.jpg" alt="">
+                                    </section>
+                                </div>
+                                <div>
+                                    <h5>LADIES</h5>
+                                    <section>
+                                        <img src="img/w1.jpg" alt="">
+                                        <img src="img/w2.jpg" alt="">
+                                        <img src="img/w3.jpg" alt="">
+                                        <img src="img/w4.jpg" alt="">
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <!-- Top Brands  section -->
+
+                <section id="mens" class="about tab-pane fade">
+                    <section class="mensec">
+                        <h4>Top Brands in Mens</h4>
+                        <section class="mainbrand">
+                            <div class="brandsec">
+                                <label>Otto</label>
+                                <a data-toggle="tab" href="#oto">
+                                    <img src="img/otto.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Levis</label>
+                                <a href="">
+                                    <img src="img/levies.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Adidas</label>
+                                <a href="">
+                                    <img src="img/adi.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Pepe Jeans</label>
+                                <a href="">
+                                    <img src="img/pepe.png" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Tommy Hilfiger</label>
+                                <a href="">
+                                    <img src="img/tommy.png" alt="">
+                                </a>
+                            </div>
+
+                        </section>
+                        <section class="mainbrand">
+                            <div class="brandsec">
+                                <label>Lee</label>
+                                <a href="">
+                                    <img src="img/m1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Wrangler</label>
+                                <a href="">
+                                    <img src="img/m1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Polo</label>
+                                <a href="">
+                                    <img src="img/m1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Peter England</label>
+                                <a href="">
+                                    <img src="img/m1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Calvin Klein</label>
+                                <a href="">
+                                    <img src="img/m1.jpg" alt="">
+                                </a>
+                            </div>
+
+                        </section>
+                        <section class="mainbrand">
+                            <div class="brandsec">
+                                <label>Allen Solly</label>
+                                <a href="">
+                                    <img src="img/m1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Raymond</label>
+                                <a href="">
+                                    <img src="img/m1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Turtle</label>
+                                <a href="">
+                                    <img src="img/m1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Louis Philippe</label>
+                                <a href="">
+                                    <img src="img/m1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="brandsec">
+                                <label>Diesel</label>
+                                <a href="">
+                                    <img src="img/m1.jpg" alt="">
+                                </a>
+                            </div>
+
+                        </section>
+                    </section>
+
+                </section>
+                <!-- Womens -->
+                <section id="womens" class="service tab-pane fade">
+                    <h4>Womens</h4>
+
+                </section>
+                <!-- Kids -->
+                <section id="kids" class="service tab-pane fade">
+                    <h4>Kids</h4>
+                </section>
+                <!-- oto dress setion -->
+                <section id="oto" class="service tab-pane fade">
+
+                    <h4>Welcome to OTTO</h4>
+                    <!-- <h4 class="back" data-toggle="tab" href="#mens">BACK</h4> -->
+                    <section class="otoinfo">
+                        <div class="brandsec brandinfo">
+
+                            <a data-toggle="tab" href="#binfo">
+                                <img src="img/otto01.jpeg" alt="">
+                            </a>
+                            <label>Otto</label>
+                            <p>Men Regular Fit Solid Format Shirt</p>
+                        </div>
+                        <div class="brandsec brandinfo">
+
+                            <a href="">
+                                <img src="img/otto02.jpeg" alt="">
+                            </a>
+                            <label>Otto</label>
+                            <p>Men Regular Fit Solid Format Shirt</p>
+                        </div>
+                        <div class="brandsec brandinfo">
+
+                            <a href="">
+                                <img src="img/otto03.jpeg" alt="">
+                            </a>
+                            <label>Otto</label>
+                            <p>Men Slim Fit Solid Format Shirt</p>
+                        </div>
+                        <div class="brandsec brandinfo">
+
+                            <a href="">
+                                <img src="img/otto04.jpeg" alt="">
+                            </a>
+                            <label>Otto</label>
+                            <p>Men Regular Fit Solid Format Shirt</p>
+                        </div>
+                    </section>
+                </section>
+
+                <!------------------------------- Otto brand info --------------------------------------------------->
+                <section id="binfo" class="service tab-pane fade">
+                    <h4>Otto</h4>
+                    <!-- <h4 class="back" data-toggle="tab" href="#oto">BACK</h4> -->
+                    <div class="row otobinfo">
+                        <div class="col-12 col-md-4 col-sm-12 col-xl-4 col-lg-4">
+                            <img src="img/o1.jpeg" alt="" style="width: 100%;height: 70%;">
+                        </div>
+                        <div class="col-12 col-md-8 col-sm-12 col-xl-8 col-lg-8">
+
+                            <h6>Men Regular Fit Solid Formal Shirt</h6>
+
+
+                            <div class="prdtl">
+
+                                <dl>
+                                    <dt>Product Details :</dt>
+
+                                </dl>
+                                <table>
+                                    <tr>
+                                        <th>Style Color</th>
+                                        <td>OXY COOL_Orange</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Fit</th>
+                                        <td>Regular</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Fabric</th>
+                                        <td>Polycotton</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Sleeve</th>
+                                        <td>Full Sleeve</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Pattern</th>
+                                        <td>Solid</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Color</th>
+                                        <td>Orange</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Style Color</th>
+                                        <td>OXY COOL_Orange</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Fabric Care</th>
+                                        <td>Machine wash as per tag</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Suitable For</th>
+                                        <td>Western Wear</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Regiter page -->
+                <section id="reg" class="service tab-pane fade">
+                    <form action="/action_page.php">
+                        <div class="container">
+                            <h1>Register</h1>
+                            <p>Please fill in this form to create an account.</p>
+                            <hr>
+
+                            <label for="email"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                            <label for="psw-repeat"><b>Repeat Password</b></label>
+                            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                            <hr>
+                            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+                            <button type="submit" class="registerbtn">Register</button>
+                        </div>
+
+                        <div class="container signin">
+                            <p>Already have an account? <a href="#">Sign in</a>.</p>
+                        </div>
+                    </form>
+
+                </section>
+            </div>
+
+    </div>
+    </section>
+    <footer>
+        <p><span><i class="fa fa-phone" aria-hidden="true"></i>For Enquires<a href="tel:+0863181425">xyz@gmail.com</a></span></p>
+
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            // document.getElementById("main").style.marginLeft = "250px";
+            // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            // document.getElementById("main").style.marginLeft = "0";
+            // document.body.style.backgroundColor = "white";
+        }
+    </script>
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="container h-100">
+                    <div class="d-flex justify-content-center h-100">
+                        <div class="user_card">
+                            <div class="d-flex justify-content-center">
+                                <div class="brand_logo_container">
+                                    <img src="https://cdn.freebiesupply.com/logos/large/2x/pinterest-circle-logo-png-transparent.png" class="brand_logo" alt="Logo">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center form_container">
+                                <form>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                        </div>
+                                        <input type="text" name="" class="form-control input_user" value="" placeholder="username">
+                                    </div>
+                                    <div class="input-group mb-2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                        </div>
+                                        <input type="password" name="" class="form-control input_pass" value="" placeholder="password">
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="customControlInline">
+                                            <label class="custom-control-label" for="customControlInline">Remember me</label>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center mt-3 login_container">
+                                        <button type="button" name="button" class="btn login_btn" data-dismiss="modal">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="mt-4">
+                                <div class="d-flex justify-content-center links">
+                                    Don't have an account?
+                                    <a href="#" class="ml-2">
+                                        <p data-toggle="tab" href="#reg" data-dismiss="modal">Sign Up</p>
+                                    </a>
+                                </div>
+                                <div class="d-flex justify-content-center links">
+                                    <a href="#">Forgot your password?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
